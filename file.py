@@ -1,9 +1,12 @@
+def list ():
+    answer1 = int(input(f"give me one number"))
+    answer2 = int(input(f"give me a second number"))
+    result = answer1/answer2
+    try:
+        0//1
+    except ValueError:
+        print("you cannot do this function!")   
+    print(result)
+   
 
-def even_or_odd(number):
-    return "Even" if number%2==0 else "Odd"
-
-def number_to_string(num):
-    return str(num)
-
-def no_space(x):
-    return x.replace(" ", "")
+list()
